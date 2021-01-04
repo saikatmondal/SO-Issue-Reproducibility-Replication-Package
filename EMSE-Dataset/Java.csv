@@ -1,0 +1,401 @@
+QID,AccAnswer,NoOfAnswer,Score,QPostTime,LOC,ReproducibilityStatus
+189889,YES,5,56,2008-10-10 2:15,3,Minor Modification
+223918,YES,23,1071,2018-10-21 23:23,14,Minor Modification
+275711,YES,5,377,2008-11-09 7:35,8,Inaccurate Claim
+312168,YES,6,17,2008-11-23 5:43,10,Minor Modification
+314600,YES,2,0,2008-11-24 16:07,26,Minor Modification
+337038,YES,4,1,2008-12-03 13:10,2,Irreproducible
+354393,YES,8,0,2008-12-09 22:00,10,Minor Modification
+401748,NO,5,1,2008-12-30 22:44,9,Minor Modification
+404804,YES,7,14,2009-01-01 10:00,20,Without Modification
+409919,YES,6,0,2009-01-03 21:49,28,Without Modification
+469249,NO,4,3,2009-01-22 14:12,1,Irreproducible
+502494,NO,14,9,2009-02-02 8:06,4,Minor Modification
+520168,NO,5,0,2009-02-06 12:53,8,Inaccurate Claim
+535463,NO,4,1,2009-02-11 4:47,106,Irreproducible
+548132,YES,9,2,2009-02-13 23:45,21,Without Modification
+548458,NO,1,0,2009-02-14 4:02,3,Irreproducible
+561215,NO,1,-1,2009-02-18 14:18,17,Irreproducible
+571874,NO,4,2,2009-02-21 1:25,15,Major Modification
+592262,YES,7,1,2009-02-26 20:20,4,Minor Modification
+601380,NO,2,0,2009-03-02 5:44,11,Major Modification
+620934,NO,1,3,2009-03-07 0:00,71,Major Modification
+632370,YES,3,2,2009-03-10 21:32,47,Inaccurate Claim
+632678,YES,2,-1,2009-03-10 23:21,6,Without Modification
+690028,YES,4,0,2009-03-27 14:39,118,Major Modification
+695795,YES,3,1,2009-03-30 1:49,5,Inaccurate Claim
+729960,YES,5,5,2009-04-08 13:18,1,Irreproducible
+750557,YES,2,0,2009-04-15 6:47,10,Inaccurate Claim
+779970,NO,4,0,2009-04-23 1:33,7,Irreproducible
+783473,YES,2,3,2009-04-23 20:54,4,Minor Modification
+785533,NO,4,0,2009-04-24 11:55,18,Minor Modification
+788359,NO,6,9,2009-04-25 6:30,20,Irreproducible
+790321,YES,4,1,2009-04-26 5:59,59,Irreproducible
+798184,NO,3,1,2009-04-28 14:14,4,Irreproducible
+806139,NO,3,0,2009-04-30 9:40,14,Inaccurate Claim
+815411,NO,6,1,2009-05-02 19:11,1,Minor Modification
+826467,NO,6,2,2009-05-19 12:11,9,Irreproducible
+842817,YES,10,116,2009-05-09 6:33,3,Minor Modification
+852887,YES,5,0,2009-05-12 13:49,1,Minor Modification
+873213,YES,4,2,2009-05-16 20:20,3,Minor Modification
+909956,YES,7,3,2009-05-26 10:16,8,Minor Modification
+924208,YES,6,129,2009-05-29 2:56,14,Without Modification
+942849,NO,4,2,2009-06-03 2:48,3,Major Modification
+954670,NO,2,0,2009-06-05 7:33,733,Irreproducible
+966159,YES,7,2,2009-06-08 18:08,25,Minor Modification
+975619,YES,3,0,2009-06-10 13:31,8,Major Modification
+981852,NO,6,4,2009-06-11 15:35,1,Irreproducible
+1038540,YES,4,1,2009-06-24 13:55,3,Minor Modification
+1062041,YES,5,20,2009-06-30 6:33,14,Inaccurate Claim
+1063004,NO,3,0,2009-06-30 10:42,9,Irreproducible
+1114034,NO,3,-1,2009-07-11 16:15,381,Without Modification
+1142655,YES,7,0,2009-07-17 11:13,11,Irreproducible
+1149972,YES,4,1,2009-07-19 14:09,8,Minor Modification
+1167769,YES,5,1,2009-07-22 19:46,28,Minor Modification
+1205604,NO,6,0,2009-07-30 9:55,25,Irreproducible
+1217868,YES,4,12,2009-08-02 0:34,1,Irreproducible
+1226076,NO,3,0,2009-08-04 7:21,88,Irreproducible
+1250860,NO,3,1,2009-08-09 7:12,30,Major Modification
+1264770,NO,3,0,2009-08-12 7:39,14,Irreproducible
+1279542,YES,8,85,2009-08-14 18:52,15,Minor Modification
+1279910,YES,3,0,2009-08-24 17:15,30,Without Modification
+1357734,YES,9,0,2009-08-31 14:28,73,Without Modification
+1375457,NO,6,0,2009-09-03 19:32,91,Irreproducible
+1408569,YES,3,10,2009-09-11 1:27,17,Without Modification
+1417223,NO,3,0,2009-09-13 8:42,40,Irreproducible
+1417374,YES,4,1,2009-09-17 4:50,40,Minor Modification
+1492992,YES,2,0,2009-09-29 14:41,38,Without Modification
+1530864,YES,8,7,2009-10-07 10:49,11,Major Modification
+1534263,YES,2,3,2009-10-07 21:21,37,Major Modification
+1536054,YES,22,179,2009-10-08 7:01,8,Irreproducible
+1542398,NO,6,1,2009-10-08 12:37,89,Inaccurate Claim
+1562568,YES,3,0,2009-10-13 19:56,125,Inaccurate Claim
+1566318,NO,3,1,2009-10-14 13:42,2,Major Modification
+1594400,NO,2,0,2009-10-20 12:53,39,Irreproducible
+1599205,YES,4,3,2009-10-21 7:12,1,Minor Modification
+1600376,YES,2,0,2009-10-21 11:57,10,Minor Modification
+1606041,YES,6,0,2009-10-22 9:26,9,Minor Modification
+1630092,YES,3,1,2009-10-27 11:06,6,Major Modification
+1639881,NO,3,0,2009-10-28 20:21,13,Major Modification
+1640364,NO,4,0,2009-10-28 21:53,9,Irreproducible
+1644582,NO,3,-1,2009-10-29 15:34,13,Minor Modification
+1651832,YES,1,1,2009-10-30 19:25,23,Major Modification
+1659055,YES,2,0,2009-11-02 1:38,2,Minor Modification
+1675257,YES,7,0,2009-11-04 17:07,20,Minor Modification
+1690353,YES,2,0,2009-11-06 20:53,22,Without Modification
+1698368,YES,5,0,2009-11-08 23:42,43,Irreproducible
+1715533,NO,5,0,2009-11-11 14:33,6,Without Modification
+1746758,YES,4,19,2009-11-17 5:20,15,Minor Modification
+1773352,YES,6,4,2009-11-20 21:28,34,Major Modification
+1784635,YES,3,0,2009-11-23 17:20,86,Irreproducible
+1790933,YES,6,1,2009-11-24 15:48,17,Major Modification
+1792639,NO,3,0,2009-11-24 20:15,1,Irreproducible
+1809420,YES,5,0,2009-11-27 15:43,10,Major Modification
+1813193,NO,1,0,2009-11-28 17:45,45,Irreproducible
+1821747,YES,2,-1,2009-11-30 19:07,259,Without Modification
+1834233,YES,2,4,2009-12-02 16:47,3,Minor Modification
+1842716,YES,4,3,2009-12-03 23:08,15,Minor Modification
+1855753,YES,4,4,2009-12-06 16:00,27,Minor Modification
+1866198,YES,1,-1,2009-12-08 10:55,26,Irreproducible
+1876192,YES,5,0,2009-12-09 19:22,42,Minor Modification
+1890732,YES,4,0,2009-12-11 20:37,32,Minor Modification
+1913286,YES,2,1,2009-12-16 9:00,73,Minor Modification
+1917509,YES,2,0,2009-12-16 20:37,5,Major Modification
+1947326,YES,3,1,2009-12-22 16:05,12,Major Modification
+1957409,NO,2,0,2009-12-24 8:38,121,Irreproducible
+1961129,YES,2,3,2009-12-25 12:55,52,Minor Modification
+1961686,YES,1,0,2009-12-25 18:47,14,Irreproducible
+1978445,YES,8,8,2009-12-30 4:36,1,Major Modification
+1986925,YES,5,2,2009-12-31 20:06,8,Minor Modification
+1991380,YES,16,241,2010-01-02 11:44,1,Minor Modification
+2011573,YES,3,1,2010-01-06 7:56,24,Minor Modification
+2012089,YES,5,1,2010-01-06 9:59,4,Minor Modification
+2012643,YES,1,0,2010-01-06 11:45,5,Irreproducible
+2013378,NO,2,-2,2010-01-06 13:56,65,Inaccurate Claim
+2016654,YES,2,5,2010-01-06 22:11,32,Minor Modification
+2018247,NO,1,0,2010-01-07 4:43,1,Irreproducible
+2037452,YES,3,0,2010-01-10 15:30,109,Inaccurate Claim
+2041542,YES,10,23,2010-01-11 11:42,13,Without Modification
+2047688,NO,4,2,2010-01-12 8:51,33,Major Modification
+2050048,YES,5,3,2010-01-12 15:28,2,Minor Modification
+2056097,YES,3,23,2010-01-13 11:03,7,Minor Modification
+2069485,NO,1,-1,2010-01-15 4:19,1,Irreproducible
+2073156,YES,2,3,2010-01-15 16:35,50,Major Modification
+2102289,NO,4,1,2010-01-20 15:03,30,Major Modification
+2136608,YES,1,1,2010-01-25 23:53,33,Without Modification
+2144117,YES,3,0,2010-01-27 2:10,1,Major Modification
+2158248,YES,3,2,2010-01-28 21:51,158,Minor Modification
+2161028,YES,5,-1,2010-01-29 9:39,23,Without Modification
+2168831,YES,6,40,2010-01-30 18:03,2,Minor Modification
+2212024,YES,6,6,2010-02-06 4:13,70,Minor Modification
+2214124,YES,4,8,2010-02-06 18:17,34,Without Modification
+2224719,YES,4,4,2010-02-08 20:43,60,Without Modification
+2225344,YES,5,4,2010-02-08 22:25,23,Without Modification
+2226333,YES,6,0,2010-02-09 2:21,27,Without Modification
+2233347,NO,3,0,2010-02-09 23:34,2,Irreproducible
+2256498,YES,2,0,2010-02-13 4:41,70,Minor Modification
+2261442,YES,5,8,2010-02-14 14:45,5,Minor Modification
+2273103,NO,4,6,2010-02-16 13:18,12,Minor Modification
+2281788,NO,5,0,2010-02-17 15:13,7,Minor Modification
+2282263,YES,9,1,2010-02-17 16:10,42,Minor Modification
+2290599,YES,5,3,2010-02-18 17:10,8,Without Modification
+2290841,YES,1,0,2010-02-18 17:46,23,Minor Modification
+2292094,YES,3,0,2010-02-18 20:49,51,Without Modification
+2296110,YES,12,11,2010-02-19 12:08,26,Minor Modification
+2301165,YES,5,12,2010-02-20 5:20,6,Minor Modification
+2303604,YES,5,52,2010-02-20 20:28,11,Minor Modification
+2315511,YES,4,3,2010-02-23 1:16,5,Major Modification
+2349058,NO,7,2,2010-02-27 21:37,19,Without Modification
+2355405,NO,5,0,2010-03-01 11:23,38,Irreproducible
+2585650,YES,6,1,2010-04-06 14:37,19,Minor Modification
+2638488,YES,4,2,2010-04-14 15:04,9,Without Modification
+3464899,NO,6,0,2010-08-12 5:12,4,Irreproducible
+3714209,YES,6,2,2010-09-15 2:10,25,Inaccurate Claim
+3981420,YES,4,21,2010-10-20 19:09,15,Without Modification
+4030032,YES,9,4,2010-10-27 4:44,14,Major Modification
+4064960,NO,3,0,2010-10-31 20:29,24,Ill-Defined Issue
+4363665,YES,9,9,2010-12-06 5:53,48,Without Modification
+4546613,NO,1,1,2010-12-28 14:03,191,Irreproducible
+4685450,YES,13,77,2011-01-13 21:25,4,Minor Modification
+5003907,YES,6,12,2011-02-15 12:56,24,Minor Modification
+5554734,YES,23,226,2011-04-05 15:54,19,Minor Modification
+5554734,YES,23,230,2011-04-05 15:54,4,Minor Modification
+5575544,NO,2,0,2011-04-07 3:18,89,Irreproducible
+5576330,YES,4,2,2011-04-07 5:17,16,Major Modification
+7593320,YES,2,1,2011-09-29 6:29,24,Ill-Defined Issue
+7696041,YES,2,0,2011-10-08 9:53,7,Without Modification
+7753443,YES,6,7,2011-10-13 11:31,8,Minor Modification
+7838718,YES,8,1,2011-10-20 15:57,14,Without Modification
+8394767,YES,5,0,2011-12-06 2:49,54,Minor Modification
+8429277,NO,6,0,2011-12-08 10:11,17,Minor Modification
+8618286,NO,1,2,2011-12-23 16:22,14,Ill-Defined Issue
+9553010,YES,2,3,2012-03-04 6:56,8,Minor Modification
+9771521,YES,1,1,2012-03-19 13:56,117,Without Modification
+9978943,NO,0,1,2012-04-02 15:12,12,Irreproducible
+10457844,YES,2,0,2012-05-05 0:46,88,Minor Modification
+12126173,YES,3,0,2012-08-25 22:35,17,Minor Modification
+12164729,YES,4,-1,2012-08-28 17:48,6,Minor Modification
+12212941,NO,8,0,2012-08-31 9:52,11,Without Modification
+12765754,YES,3,0,2012-10-07 2:57,30,Ill-Defined Issue
+12768952,YES,3,1,2012-10-07 12:43,7,Major Modification
+12773237,NO,0,0,2012-10-07 22:00,43,Irreproducible
+13027558,YES,5,0,2012-10-23 9:39,66,Irreproducible
+13042008,YES,3,42,2012-10-24 2:04,55,Major Modification
+13102045,YES,14,528,2012-10-27 16:37,20,Minor Modification
+13102045,YES,14,530,2012-10-27 16:37,7,Minor Modification
+13158291,YES,5,3,2012-10-31 12:45,8,Without Modification
+13175129,YES,4,14,2012-11-01 10:27,2,Minor Modification
+13298297,NO,2,0,2012-11-08 21:40,258,Irreproducible
+13486529,YES,3,9,2012-11-21 4:49,72,Minor Modification
+13516183,YES,2,1,2012-11-22 15:49,106,Ill-Defined Issue
+13557125,NO,2,0,2012-11-26 0:27,35,Inaccurate Claim
+14112515,YES,16,62,2013-01-01 17:22,1,Minor Modification
+14139534,YES,1,2,2013-01-03 13:04,25,Minor Modification
+14914516,YES,2,1,2013-02-16 19:56,9,Major Modification
+15318621,YES,2,1,2013-03-10 3:36,145,Irreproducible
+15679652,YES,2,2,2013-03-28 10:40,12,Inaccurate Claim
+16239989,NO,4,2,2013-04-26 15:25,54,Without Modification
+17288049,YES,2,1,2013-06-25 2:09,5,Minor Modification
+17775236,NO,1,0,2013-07-21 18:01,32,Minor Modification
+17779601,YES,2,3,2013-07-22 3:43,20,Minor Modification
+18256650,NO,3,-1,2013-08-15 15:59,101,Irreproducible
+18730761,NO,0,0,2013-09-11 0:14,19,Irreproducible
+19063065,YES,1,0,2013-09-28 3:56,41,Minor Modification
+19281397,NO,1,2,2013-10-09 19:58,22,Irreproducible
+19509647,YES,6,28,2013-10-22 5:29,7,Minor Modification
+20751773,NO,2,0,2013-12-23 21:56,7,Irreproducible
+21016776,YES,7,30,2014-01-09 9:53,15,Without Modification
+21059809,YES,2,3,2014-01-11 7:28,34,Major Modification
+21592197,YES,1,0,2014-02-06 1:22,31,Without Modification
+21838448,YES,5,2,2014-02-17 20:14,22,Without Modification
+22003194,YES,1,0,2014-02-25 2:04,16,Irreproducible
+22418887,NO,2,2,2014-03-15 2:43,149,Without Modification
+22599170,YES,2,2,2014-03-24 0:35,24,Without Modification
+22612662,YES,2,0,2014-03-24 14:47,99,Without Modification
+23481779,NO,0,0,2014-05-05 20:59,29,Irreproducible
+23937473,YES,2,-3,2014-05-29 15:51,29,Minor Modification
+23946137,YES,1,2,2014-05-30 2:32,3,Minor Modification
+24016163,NO,2,1,2014-06-03 13:13,18,Inaccurate Claim
+24269633,NO,1,1,2014-06-17 17:09,33,Irreproducible
+24716899,YES,1,7,2014-07-12 20:10,11,Minor Modification
+25015679,NO,1,0,2014-07-29 12:46,22,Without Modification
+25339159,NO,1,-1,2014-08-16 10:15,41,Minor Modification
+25504204,NO,5,0,2014-08-26 11:00,16,Without Modification
+25709623,NO,3,-2,2014-09-07 11:18,33,Minor Modification
+25733262,YES,2,0,2014-09-08 21:16,50,Without Modification
+25805161,YES,4,0,2014-09-12 9:35,3,Minor Modification
+25905662,YES,5,0,2014-09-18 6:27,76,Without Modification
+26100116,YES,3,0,2014-09-29 12:37,10,Minor Modification
+26205559,NO,3,-3,2014-10-05 17:57,18,Without Modification
+26534008,NO,1,0,2014-10-23 17:37,11,Minor Modification
+26564796,NO,1,-3,2014-10-25 16:46,29,Irreproducible
+26651540,YES,1,0,2014-10-30 11:15,45,Without Modification
+26661245,NO,0,0,2014-10-30 19:00,3,Irreproducible
+26812183,NO,1,0,2014-11-08 0:12,21,Major Modification
+26954149,NO,3,0,2014-11-16 5:34,19,Irreproducible
+27188008,YES,3,1,2014-11-28 11:48,10,Major Modification
+27335794,YES,2,0,2014-12-06 19:54,51,Without Modification
+27693110,NO,4,-2,2014-12-29 17:12,13,Inaccurate Claim
+28063086,YES,1,2,2015-01-21 8:58,33,Minor Modification
+28115900,NO,3,0,2015-01-23 17:58,19,Ill-Defined Issue
+28545025,YES,2,1,2015-02-16 15:39,4,Minor Modification
+28653180,YES,1,2,2015-02-22 0:40,4,Minor Modification
+28669653,NO,2,0,2015-02-23 8:37,80,Irreproducible
+29025384,NO,2,-1,2015-03-13 5:21,65,Inaccurate Claim
+29041648,YES,2,0,2015-03-13 20:44,30,Inaccurate Claim
+29734003,NO,1,-4,2015-04-19 18:26,387,Irreproducible
+29904424,YES,2,2,2015-04-27 19:35,48,Inaccurate Claim
+30060412,YES,1,2,2015-05-05 18:18,4,Minor Modification
+30108571,YES,1,1,2015-05-07 18:05,14,Major Modification
+30281635,YES,1,0,2015-05-16 23:05,70,Minor Modification
+30535985,YES,2,0,2015-05-29 17:48,11,Ill-Defined Issue
+30829670,YES,3,19,2015-06-14 12:59,6,Without Modification
+30847114,NO,1,1,2015-06-15 13:58,58,Ill-Defined Issue
+30996352,YES,1,1,2015-06-23 7:24,17,Irreproducible
+31170073,YES,5,0,2015-07-01 19:30,38,Without Modification
+31457903,YES,3,-2,2015-07-16 15:03,14,Ill-Defined Issue
+31895755,YES,2,1,2015-08-08 15:48,34,Irreproducible
+31977074,NO,3,0,2015-08-12 23:26,13,Minor Modification
+32214284,YES,4,2,2015-08-25 21:19,21,Minor Modification
+32564148,NO,2,-1,2015-09-14 11:53,13,Without Modification
+32659442,YES,3,0,2015-09-18 19:12,37,Without Modification
+32663033,YES,2,0,2015-09-19 0:59,30,Minor Modification
+32832199,YES,5,0,2015-09-28 21:34,23,Without Modification
+32856273,NO,1,0,2015-09-30 1:20,54,Inaccurate Claim
+32954871,NO,1,-1,2015-10-05 17:55,122,Ill-Defined Issue
+33046816,YES,3,1,2015-10-09 20:40,22,Minor Modification
+33084076,NO,3,1,2015-10-12 14:49,54,Major Modification
+33105021,NO,1,2,2015-10-13 14:14,8,Irreproducible
+33176369,YES,2,0,2015-10-16 17:36,24,Without Modification
+33185937,YES,2,0,2015-10-17 11:11,13,Without Modification
+33187479,NO,2,0,2015-10-17 14:00,10,Minor Modification
+33245620,NO,4,3,2015-10-20 19:51,89,Major Modification
+33248496,NO,1,1,2015-10-20 23:25,22,Major Modification
+33291790,NO,1,-3,2015-10-22 22:24,139,Inaccurate Claim
+33297090,YES,4,0,2015-10-23 7:35,8,Minor Modification
+33369721,NO,3,-1,2015-10-27 13:45,21,Minor Modification
+33579459,NO,3,0,2015-11-07 5:26,34,Minor Modification
+33590525,YES,1,0,2015-11-08 3:52,179,Major Modification
+33681374,YES,5,0,2015-11-12 21:07,15,Without Modification
+33716155,NO,1,0,2015-11-15 3:40,41,Irreproducible
+33806513,YES,3,0,2015-11-19 14:22,13,Without Modification
+33879716,YES,2,-3,2015-11-23 20:07,16,Minor Modification
+33884793,NO,1,0,2015-11-24 3:11,355,Irreproducible
+33920999,YES,3,0,2015-11-25 15:57,4,Minor Modification
+33926269,NO,3,-2,2015-11-25 20:57,42,Irreproducible
+33946899,NO,1,-3,2015-11-26 20:59,8,Major Modification
+34009888,NO,2,-2,2015-11-30 23:25,124,Ill-Defined Issue
+34087298,NO,0,2,2015-12-04 11:25,21,Irreproducible
+34280937,YES,1,1,2015-12-15 4:03,73,Without Modification
+34402562,NO,3,0,2015-12-21 19:01,91,Without Modification
+34435131,NO,3,0,2015-12-23 11:53,18,Without Modification
+34475587,NO,1,0,2015-12-26 21:56,18,Irreproducible
+34634050,NO,4,-3,2016-01-06 13:12,10,Minor Modification
+34806343,NO,3,3,2016-01-15 7:41,53,Without Modification
+34966635,YES,1,0,2016-01-23 17:38,32,Minor Modification
+35118383,YES,2,1,2016-01-31 19:30,48,Without Modification
+35251787,NO,1,-1,2016-02-07 9:26,33,Irreproducible
+35356126,YES,2,0,2016-02-12 6:23,30,Without Modification
+35380717,YES,1,2,2016-02-13 13:47,36,Minor Modification
+35491734,YES,1,1,2016-02-18 20:25,21,Irreproducible
+35562210,YES,1,1,2016-02-22 19:30,107,Without Modification
+35599614,YES,2,0,2016-02-24 10:32,34,Without Modification
+35772628,YES,4,0,2016-03-03 12:49,5,Minor Modification
+35781780,YES,4,0,2016-03-03 19:56,4,Minor Modification
+35796307,YES,5,3,2016-03-04 12:38,11,Without Modification
+35802306,YES,3,0,2016-03-04 17:25,18,Without Modification
+35834640,YES,2,0,2016-03-07 1:04,2,Minor Modification
+36023842,NO,1,1,2016-03-15 22:59,24,Without Modification
+36121533,NO,1,1,2016-03-21 0:50,42,Major Modification
+36137976,NO,1,-2,2016-03-21 17:35,38,Inaccurate Claim
+36236246,YES,2,0,2016-03-26 14:10,52,Without Modification
+36316658,NO,1,0,2016-03-30 18:19,169,Without Modification
+36587313,YES,1,0,2016-04-13 2:11,21,Major Modification
+36606547,NO,4,0,2016-04-13 18:23,2,Major Modification
+36777806,NO,3,0,2016-04-21 18:33,13,Irreproducible
+36820429,YES,4,-2,2016-04-24 7:28,22,Inaccurate Claim
+37165300,NO,0,1,2016-05-11 14:13,24,Irreproducible
+37166588,YES,1,-1,2016-05-11 15:04,11,Major Modification
+37632011,YES,4,0,2016-06-04 15:35,15,Minor Modification
+37636698,YES,1,2,2016-06-05 1:49,8,Minor Modification
+37791455,YES,5,2,2016-06-13 13:47,12,Without Modification
+37912009,YES,2,-4,2016-06-19 21:27,8,Major Modification
+37935013,NO,4,0,2016-06-21 3:21,10,Irreproducible
+38038030,YES,2,0,2016-06-26 11:25,24,Minor Modification
+38229327,NO,0,0,2016-07-06 16:44,4,Irreproducible
+38341011,NO,0,0,2016-07-13 0:51,41,Inaccurate Claim
+38570560,YES,3,2,2016-07-25 14:32,14,Major Modification
+38694866,YES,1,0,2016-08-01 9:06,8,Inaccurate Claim
+38961644,NO,1,-4,2016-08-15 19:24,58,Irreproducible
+39366424,YES,1,-1,2016-09-07 9:41,31,Major Modification
+39430730,YES,1,0,2016-09-10 21:28,182,Without Modification
+39430730,YES,1,0,2016-09-10 21:28,182,Without Modification
+39565740,YES,4,1,2016-09-19 5:07,86,Without Modification
+39889376,NO,0,1,2016-10-06 6:51,55,Irreproducible
+39904543,NO,2,0,2016-10-06 19:50,72,Major Modification
+40079377,YES,2,-1,2016-10-17 5:57,142,Minor Modification
+40089783,YES,4,-1,2016-10-17 15:02,104,Major Modification
+40127546,YES,2,0,2016-10-19 9:34,20,Ill-Defined Issue
+40188505,YES,3,0,2016-10-22 4:59,7,Minor Modification
+40456238,NO,4,-1,2016-11-07 0:39,8,Irreproducible
+40676820,NO,1,0,2016-11-18 12:10,2,Minor Modification
+41891611,YES,3,-1,2017-01-27 10:18,6,Minor Modification
+42056499,YES,1,-2,2017-02-05 19:49,20,Minor Modification
+42194873,NO,0,0,2017-02-13 0:21,58,Without Modification
+42519740,NO,1,-1,2017-02-28 22:15,37,Inaccurate Claim
+42533185,NO,1,-1,2017-03-01 13:33,25,Minor Modification
+42745217,YES,3,0,2017-03-12 8:15,113,Major Modification
+42822977,NO,0,0,2017-03-16 0:00,221,Irreproducible
+42838851,YES,1,-5,2017-03-16 15:49,16,Irreproducible
+43079369,NO,2,0,2017-03-28 20:30,10,Minor Modification
+43129823,YES,2,0,2017-03-30 23:09,91,Without Modification
+43195858,YES,2,1,2017-04-03 23:19,35,Minor Modification
+43667632,NO,3,0,2017-04-27 20:47,4,Major Modification
+43727793,NO,0,1,2017-05-01 23:13,19,Major Modification
+43910830,YES,1,1,2017-05-11 8:54,4,Minor Modification
+44160950,NO,2,-6,2017-05-24 14:12,11,Irreproducible
+44218606,NO,2,0,2017-05-27 15:26,62,Without Modification
+44303696,YES,2,0,2017-06-01 9:28,36,Without Modification
+44318499,NO,3,-1,2017-06-01 23:17,15,Major Modification
+45156568,YES,2,0,2017-07-18 2:37,23,Without Modification
+45806852,NO,1,0,2017-08-21 23:29,45,Irreproducible
+45881853,NO,2,0,2017-08-25 12:50,13,Irreproducible
+46086562,NO,0,2,2017-09-07 1:34,115,Inaccurate Claim
+46230049,NO,0,0,2017-09-15 0:38,82,Minor Modification
+46266241,YES,3,1,2017-09-17 16:20,45,Ill-Defined Issue
+46701288,NO,1,0,2017-10-12 4:12,5,Irreproducible
+46921792,YES,1,0,2017-10-24 23:58,4,Minor Modification
+46966488,YES,1,-5,2017-10-27 2:12,2,Minor Modification
+47053983,YES,1,7,2017-11-01 11:39,5,Major Modification
+47362456,YES,4,0,2017-11-18 4:19,22,Without Modification
+47464821,YES,1,0,2017-11-24 0:20,38,Without Modification
+47545494,YES,3,2,2017-11-29 5:12,5,Minor Modification
+47579554,NO,1,-2,2017-11-30 17:44,63,Without Modification
+47601836,NO,1,-1,2017-12-01 21:37,66,Irreproducible
+48200387,NO,2,0,2018-01-11 5:36,3,Minor Modification
+48238533,YES,1,1,2018-01-13 9:25,10,Ill-Defined Issue
+48268435,YES,1,-2,2018-01-15 18:05,24,Without Modification
+48270543,NO,0,1,2018-01-15 20:56,268,Without Modification
+48313556,NO,5,-4,2018-01-18 3:50,24,Major Modification
+48609759,NO,4,0,2018-02-04 15:31,20,Without Modification
+48819325,NO,1,0,2018-02-16 2:35,14,Irreproducible
+48940466,NO,0,1,2018-02-23 3:03,17,Inaccurate Claim
+48962369,NO,1,-2,2018-02-24 11:33,66,Major Modification
+49111006,YES,3,1,2018-03-05 12:56,16,Without Modification
+49266983,YES,2,-1,2018-03-13 22:38,90,Minor Modification
+49342785,NO,1,0,2018-03-17 23:03,7,Irreproducible
+49429615,YES,1,-4,2018-03-22 13:11,108,Without Modification
+49642796,NO,7,0,2018-04-04 4:29,18,Without Modification
+49706263,NO,1,-2,2018-04-07 10:15,1,Irreproducible
+49920168,NO,0,0,2018-04-19 11:39,11,Inaccurate Claim
+49957011,NO,0,0,2018-04-21 14:54,145,Irreproducible
+49972194,NO,0,0,2018-04-23 1:13,27,Minor Modification
+50501028,NO,1,0,2018-05-24 4:34,93,Irreproducible
+51384372,NO,0,0,2018-07-17 14:48,1,Irreproducible
+52632591,YES,2,0,2018-10-03 17:27,38,Without Modification
+52893257,NO,3,-1,2018-10-19 13:23,16,Major Modification
+52980237,YES,1,-3,2018-10-25 1:55,45,Without Modification
+53159149,YES,1,0,2018-11-05 17:18,6,Major Modification
+53232392,YES,2,-1,2018-11-09 19:48,25,Minor Modification
+53324152,NO,0,-1,2018-11-15 16:44,75,Minor Modification
+53425261,NO,0,0,2018-11-22 6:46,1,Irreproducible
