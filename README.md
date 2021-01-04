@@ -14,9 +14,9 @@
 
 **Manually Analyzed Dataset**
 
-*EMSE-Dataset
+* `EMSE-Dataset`
 
 
-*MSR2019-Dataset
+* `MSR2019-Dataset`
 
 
