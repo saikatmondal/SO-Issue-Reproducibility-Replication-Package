@@ -12,13 +12,13 @@
 
 ## Materials Included
 
-# Manually Analyzed Dataset #
+#### Manually Analyzed Dataset ####
 
-** EMSE-Dataset ** 
+***EMSE-Dataset*** 
 
 * `Java.csv` & `Python.csv` contain manually investigated 800 questions (400 Java and 400 Python) of Stack Overflow with their reproducibility status (`reproducible without modification`, `reproducible with minor modification`, `reproducible with major modification`, `irreproducible`, `inaccurate claim` and `ill-defined issue`).
 
-** MSR2019-Dataset **
+***MSR2019-Dataset***
 
 * `Java.csv` contains manually investigated 400 Java questions of Stack Overflow with their reproducibility status (`reproducible without modification`, `reproducible with minor modification`, `reproducible with major modification`, `irreproducible`, `inaccurate claim` and `ill-defined issue`), published in MSR 2019.
 
