@@ -1,0 +1,402 @@
+QID,AccAnswer,QPostTime,ReproduceStatus,Parsable?,Compilable?,Method,Main Method,Class,Import(Native),Import(External),Exception Handle,Others
+189889,YES,2008-10-10 2:15,Minor Modification,NO,NO,NO,NO,NO,import java.text.MessageFormat;,,N/A,"new instance of MessageFormat, Type of str0, str1, str2, str3, str4 missing, print result"
+223918,YES,2018-10-21 23:23,Minor Modification,NO,NO,YES,YES,NO,"import java.util.ArrayList;
+import java.util.Collection;",,N/A,
+312168,YES,2008-11-23 5:43,Minor Modification,NO,NO,NO,NO,NO,,,N/A,
+314600,YES,2008-11-24 16:07,Minor Modification,YES,NO,YES,NO,NO,import java.util.Iterator;,,N/A,code need to place 
+354393,YES,2008-12-09 22:00,Minor Modification,NO,NO,YES,YES,NO,,,N/A,Just after adding a dummy class it works
+401748,NO,2008-12-30 22:44,Minor Modification,NO,NO,NO,NO,NO,"import java.io.BufferedInputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.ObjectInputStream;
+import java.net.URL;",,YES,Add variable
+404804,YES,2009-01-01 10:00,Without Modification,YES,YES,YES,YES,YES,,,N/A,Without any modification issue can be reproduced.
+409919,YES,2009-01-03 21:49,Without Modification,YES,YES,YES,YES,YES,,,N/A,Without any modification issue can be reproduced.
+502494,NO,2009-02-02 8:06,Minor Modification,NO,NO,NO,NO,NO,import java.io.IOException;,,NO,"Partially reproducable. Too short code segment, argument missing. One user comment, ""Can you show us the string you're passing into exec()?"" another one ""edit your question to include your code"""
+548132,YES,2009-02-13 23:45,Without Modification,YES,YES,YES,YES,YES,,,N/A,Without any modification issue can be reproduced. Though the error message is slightly different.
+571874,NO,2009-02-21 1:25,Major Modification,NO,NO,YES,NO,NO,"import java.io.IOException;
+import java.io.RandomAccessFile;",,YES,"Need to write extra code to reproduce the issue. For instance, creating class object, calling method using argument. "
+592262,YES,2009-02-26 20:20,Minor Modification,NO,NO,NO,NO,NO,import java.io.IOException;,,NO,
+601380,NO,2009-03-02 5:44,Major Modification,NO,NO,NO,NO,NO,"import java.util.Calendar;
+import java.util.GregorianCalendar;",,N/A,User's claim is partially reproduced. Need extra code that call another API to get the output. 
+620934,NO,2009-03-07 0:00,Major Modification,YES,NO,YES,NO,YES,,,N/A,Patially reproducable after writing extra code. Error messages does not match with the given one. 
+632678,YES,2009-03-10 23:21,Without Modification,YES,YES,YES,YES,YES,,,N/A,Without any modification the issue can be reproduced
+690028,YES,2009-03-27 14:39,Major Modification,YES,NO,YES,YES,YES,,,N/A,"External class and method dependency, but adding the signature only, issue can be reproduced."
+783473,YES,2009-04-23 20:54,Minor Modification,NO,NO,NO,NO,NO,import java.io.IOException;,,NO,Easy to reproduce
+785533,NO,2009-04-24 11:55,Minor Modification,NO,NO,NO,NO,NO,,,N/A,Reproducible creating dummy class and main method.
+815411,NO,2009-05-02 19:11,Minor Modification,NO,NO,NO,NO,NO,import java.io.IOException;,,NO,
+842817,YES,2009-05-09 6:33,Minor Modification,NO,NO,NO,NO,NO,,,N/A,Easily Reproduced
+852887,YES,2009-05-12 13:49,Minor Modification,NO,NO,NO,NO,NO,import java.util.Date;,,N/A,Easily Reproduced though I need to declare an object of Date class.
+873213,YES,2009-05-16 20:20,Minor Modification,NO,NO,NO,NO,NO,,,N/A,Two issues are there and they are easily reproducable
+909956,YES,2009-05-26 10:16,Minor Modification,NO,NO,NO,NO,NO,import java.util.Random;,,N/A,"Though asker did not note the error message just noted that ""does not work"". Yes, it can be reproduced."
+924208,YES,2009-05-29 2:56,Without Modification,YES,YES,YES,YES,YES,,,N/A,Without any modification the issue can be reproduced
+942849,NO,2009-06-03 2:48,Major Modification,NO,NO,NO,NO,NO,,,N/A,Need to modify the dummy code like throw new SomeException(); to throw new Exception(); 
+966159,YES,2009-06-08 18:08,Minor Modification,YES,YES,YES,YES,YES,import java.util.HashSet;,,N/A,"Easily reproducible, only one native import was required."
+975619,YES,2009-06-10 13:31,Major Modification,YES,NO,YES,NO,YES,,,N/A,Write extra code to run the file.  Create objects of two classes and call a method.
+1038540,YES,2009-06-24 13:55,Minor Modification,NO,NO,NO,NO,NO,,,N/A,Easily reproducible just adding a class and main method.
+1114034,NO,2009-07-11 16:15,Without Modification,YES,YES,YES,YES,YES,,,N/A,
+1149972,YES,2009-07-19 14:09,Minor Modification,NO,NO,NO,YES,NO,,,N/A,Easily reproducible just adding a dummy class.
+1167769,YES,2009-07-22 19:46,Minor Modification,YES,NO,YES,YES,YES,,,N/A,"Program has some compilation error, after solving these his issues get solved. The cause can easilty findout so it is reproducible. Otherwise, it is wrong claim."
+1250860,NO,2009-08-09 7:12,Major Modification,NO,NO,YES,NO,NO,"import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;",,,Need to write extra code and create dummy class. Some code has external variable dependency but I just commented this portion of code and then it can reproduce the issue.
+1279542,YES,2009-08-14 18:52,Minor Modification,YES,YES,YES,YES,YES,,,N/A,"Partially reproducible, issue was related to command line execution and I use command line execution."
+1279910,YES,2009-08-24 17:15,Without Modification,NO,NO,YES,YES,YES,,,N/A,"Compilation error is the issue, so the code is not parsable and compilable although reproduce status = 0."
+1357734,YES,2009-08-31 14:28,Without Modification,YES,YES,YES,YES,YES,,,N/A,Without any modification the issue can be reproduced
+1408569,YES,2009-09-11 1:27,Without Modification,YES,YES,YES,YES,YES,,,N/A,Program Issue.
+1417374,YES,2009-09-17 4:50,Minor Modification,YES,YES,YES,YES,YES,,,N/A,Need to add Jar for External library dependency. 
+1492992,YES,2009-09-29 14:41,Without Modification,YES,YES,YES,YES,YES,,,N/A,Program Issue.
+1530864,YES,2009-10-07 10:49,Major Modification,NO,NO,NO,NO,NO,,,N/A,"There is a dependency on a value that comes from another place. I modified the code and assigned a value, then the issue can be reproduced. "
+1534263,YES,2009-10-07 21:21,Major Modification,YES,NO,YES,YES,YES,,,N/A,"There were many errorr, after discarding these statements Issue can be reproduced. Though in this case, the error message (language) was different. I might be the cause of IDE."
+1566318,NO,2009-10-14 13:42,Major Modification,NO,NO,NO,NO,NO,,,N/A,"External editor need to convert the output, i.e. hex editor"
+1599205,YES,2009-10-21 7:12,Minor Modification,NO,NO,NO,NO,NO,,,N/A,Reproducible just after creating a dummy class and main method.
+1600376,YES,2009-10-21 11:57,Minor Modification,NO,NO,NO,NO,NO,"import java.sql.CallableStatement;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.util.Date;",,N/A,Partially get the error message. It might be the reason of using different IDE 
+1606041,YES,2009-10-22 9:26,Minor Modification,NO,NO,NO,NO,NO,import java.io.File;,,N/A,It requires a litte code change 
+1630092,YES,2009-10-27 11:06,Major Modification,NO,NO,NO,NO,NO,"import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStreamReader;",,NO,Need to create file and write content as the instructed way. Import and exception handling were missing there.
+1639881,NO,2009-10-28 20:21,Major Modification,NO,NO,YES,NO,NO,,,N/A,"Need to write extra code to reproduce the issue. Although the error message is little different, the cause is using different IDE"
+1644582,NO,2009-10-29 15:34,Minor Modification,NO,NO,NO,NO,NO,"import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.OutputStream;
+import java.io.PrintStream;",,YES,"Get compilation error though the asker did not explicitely indicate the compilation error, but the code has error."
+1651832,YES,2009-10-30 19:25,Major Modification,NO,NO,YES,NO,NO,"import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.nio.channels.FileChannel;",,YES,Need to write some code to call the method and also it requires creating files with content.
+1659055,YES,2009-11-02 1:38,Minor Modification,NO,NO,NO,NO,NO,,,N/A,Easilty reproducible just after declaring a variable.
+1675257,YES,2009-11-04 17:07,Minor Modification,NO,NO,YES,YES,NO,import java.util.Scanner;,,N/A,Create dummy class and method to run the code.
+1690353,YES,2009-11-06 20:53,Without Modification,YES,YES,YES,YES,YES,,,N/A,Program Issue and Runtime exception.
+1715533,NO,2009-11-11 14:33,Without Modification,YES,YES,YES,YES,YES,,,N/A,
+1746758,YES,2009-11-17 5:20,Minor Modification,YES,NO,YES,YES,YES,,,N/A,Need to add Jar for External library dependency. There is an external method dependency. The issue text is different that he claims but meaning is equal.
+1773352,YES,2009-11-20 21:28,Major Modification,NO,NO,YES,NO,NO,"import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;",,N/A,"The error message is not fully same. The method call needs argument that is not very easy to generate, so need extra code to call the method."
+1790933,YES,2009-11-24 15:48,Major Modification,NO,NO,NO,NO,NO,"import java.awt.Label;
+import java.io.ByteArrayOutputStream;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;",,N/A,"There are some external dependency. I assigned some fixed values to some places where values were getting from another function. I commented few lines of code, then the issue can be reproduced."
+1809420,YES,2009-11-27 15:43,Major Modification,YES,NO,YES,NO,YES,import java.text.SimpleDateFormat;,,N/A,Need to create dummy class and main method then call the method of the given class. There were many compiling errors other than he claimed.
+1821747,YES,2009-11-30 19:07,Without Modification,YES,YES,YES,YES,YES,,,N/A,
+1834233,YES,2009-12-02 16:47,Minor Modification,NO,NO,NO,NO,NO,"import java.text.DecimalFormat;
+import javax.swing.JFormattedTextField;",,N/A,GUI Application
+1842716,YES,2009-12-03 23:08,Minor Modification,NO,NO,NO,NO,NO,,,N/A,
+1855753,YES,2009-12-06 16:00,Minor Modification,NO,NO,YES,YES,NO,"import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;",,N/A,Reproduced after little modification
+1876192,YES,2009-12-09 19:22,Minor Modification,YES,NO,YES,YES,YES,,,N/A,"Adding a text file in a folder, the issue can be reproduced."
+1890732,YES,2009-12-11 20:37,Minor Modification,YES,NO,YES,YES,YES,,,N/A,Minor compilation error.
+1913286,YES,2009-12-16 9:00,Minor Modification,YES,NO,YES,YES,YES,"import java.awt.BorderLayout;
+import java.awt.Dimension;
+import java.awt.Panel;
+import java.awt.Toolkit;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JCheckBox;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;",,N/A,"Create images and give the location, also modify the loop value, then the issue is reproduced."
+1917509,YES,2009-12-16 20:37,Major Modification,NO,NO,NO,NO,NO,import javax.swing.JOptionPane;,,N/A,Write code to declare and values to a two-dimentional arry. There is minor compilation error too.
+1947326,YES,2009-12-22 16:05,Major Modification,NO,NO,NO,NO,NO,,"import com.gargoylesoftware.htmlunit.WebClient;
+import com.gargoylesoftware.htmlunit.html.HtmlPage;",NO,"Need external Jar (htmlunit-2.9.jar) to run the code segment, then the issue is reproduced."
+1961129,YES,2009-12-25 12:55,Minor Modification,YES,NO,YES,NO,YES,"import java.io.BufferedInputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;",,N/A,"Need to create folder and file and minor code modification, then the issue reproduced."
+1978445,YES,2009-12-30 4:36,Major Modification,NO,NO,NO,NO,NO,"import java.awt.Image;
+import java.awt.Toolkit;",,N/A,Need extra code to check either the image file is found or not. He just given one statement that tries to get an image file. In fact asker provided his own answer and accepted.
+1986925,YES,2009-12-31 20:06,Minor Modification,NO,NO,NO,NO,NO,,,N/A,"Adding dummy classes and main method, the issue can be reproduced."
+1991380,NO,2010-01-02 11:44,Minor Modification,NO,NO,NO,NO,NO,,,N/A,Many correct answers but the asker did not accept any. 
+2011573,YES,2010-01-06 7:56,Minor Modification,NO,NO,NO,NO,NO,"import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;",,N/A,Write one print statement to check the values either reading or not.
+2012089,YES,2010-01-06 9:59,Minor Modification,NO,NO,NO,NO,NO,,,N/A,Easily reproducible after adding a dummy class and main method.
+2016654,YES,2010-01-06 22:11,Minor Modification,YES,NO,YES,YES,,"import java.util.HashMap;
+import java.util.Map;",,N/A,Just after adding two native library the issue is reproduced
+2041542,YES,2010-01-11 11:42,Without Modification,YES,YES,YES,YES,YES,,,N/A,
+2047688,NO,2010-01-12 8:51,Major Modification,YES,NO,YES,NO,YES,,,YES,Need to write extra code to check the issue. Need to call the method creating the objects of BufferReader and PrintWriter classes. 
+2050048,YES,2010-01-12 15:28,Minor Modification,NO,NO,NO,NO,NO,,,N/A,After adding dummy class and main method the error can be reproduced.
+2056097,YES,2010-01-13 11:03,Minor Modification,YES,NO,YES,NO,NO,,,N/A,Easily reproducable
+2073156,YES,2010-01-15 16:35,Major Modification,YES,NO,YES,YES,YES,,"import org.w3c.css.sac.ErrorHandler;
+import com.gargoylesoftware.htmlunit.BrowserVersion;
+import com.gargoylesoftware.htmlunit.DefaultCssErrorHandler;
+import com.gargoylesoftware.htmlunit.IncorrectnessListener;
+import com.gargoylesoftware.htmlunit.WebClient;",N/A,"External library dependency. I downlaoded the jar. Moreover, code is too noisy. Main mehtod was there but was not the  main class. "
+2102289,NO,2010-01-20 15:03,Major Modification,YES,NO,YES,YES,YES,,,N/A,"There was compilation errors, after solving this the issue can be reproduced.  Complex program structure, although this work could be done easily."
+2136608,YES,2010-01-25 23:53,Without Modification,YES,NO,YES,YES,YES,,,N/A,
+2144117,YES,2010-01-27 2:10,Major Modification,NO,NO,NO,NO,NO,,,N/A,Need to declare variables and assiged values. Too short code ( 1 line ).
+2158248,YES,2010-01-28 21:51,Minor Modification,YES,NO,YES,YES,YES,"import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.Scanner;",,N/A,After little modification and creating text file with input the issue can be reproduced easily.
+2161028,YES,2010-01-29 9:39,Without Modification,YES,YES,YES,YES,YES,,,N/A,Program Issue.
+2168831,YES,2010-01-30 18:03,Minor Modification,NO,NO,NO,NO,NO,,,N/A,Minor modification required; variable declare and assign values. Then the two issues can be reproduced.
+2212024,YES,2010-02-06 4:13,Minor Modification,YES,NO,YES,NO,YES,,,N/A,"Adding Main class and method and calling the target method, the issue can be reproduced."
+2214124,YES,2010-02-06 18:17,Without Modification,YES,YES,YES,YES,YES,,,N/A,
+2224719,YES,2010-02-08 20:43,Without Modification,YES,YES,YES,YES,YES,,,N/A,
+2225344,YES,2010-02-08 22:25,Without Modification,YES,YES,YES,YES,YES,,,N/A,
+2226333,YES,2010-02-09 2:21,Without Modification,YES,YES,YES,YES,YES,,,N/A,
+2256498,YES,2010-02-13 4:41,Minor Modification,YES,YES,YES,YES,YES,,,N/A,We need to create two packages. Client and server classes belong to these packages. Then the issue can be reproduced (partially).
+2261442,YES,2010-02-14 14:45,Minor Modification,NO,NO,NO,NO,NO,,,N/A,After adding dummy class and main method the error can be reproduced.
+2273103,NO,2010-02-16 13:18,Minor Modification,NO,NO,NO,NO,NO,import java.io.FileInputStream;,,N/A,Though the errors cannot be reproduced exactly (due to IDE) but reproduced.
+2281788,NO,2010-02-17 15:13,Minor Modification,NO,NO,YES,YES,NO,import java.util.StringTokenizer;,,N/A,After adding dummy class a the issue can be reproduced.
+2282263,YES,2010-02-17 16:10,Minor Modification,YES,NO,YES,YES,YES,,,N/A,There were many errors other that what he claimed. But the claimed issue can be reproduced resolving some compilation errors.
+2290599,YES,2010-02-18 17:10,Without Modification,YES,YES,YES,YES,YES,,,N/A,Run from command line.
+2290841,YES,2010-02-18 17:46,Minor Modification,YES,NO,NO,NO,NO,,,N/A,Adding a dummy class and main method the issue can be reproduced. Although there are many errors other than he claims.
+2292094,YES,2010-02-18 20:49,Without Modification,YES,YES,YES,YES,YES,,,NO,Very basic issue and got correct answer but not accepted.
+2296110,YES,2010-02-19 12:08,Minor Modification,NO,NO,YES,NO,NO,import java.math.BigDecimal;,,N/A,"Add class, add main class and main method then the issue can be reproduced."
+2301165,YES,2010-02-20 5:20,Minor Modification,NO,NO,YES,NO,NO,,,N/A,After adding a dummy class and main method and then calling the method the issue can be reproduced.
+2303604,YES,2010-02-20 20:28,Minor Modification,YES,NO,YES,NO,YES,,,N/A,Easily reproducible.
+2315511,YES,2010-02-23 1:16,Major Modification,NO,NO,NO,NO,NO,,,N/A,Need to add class main method and another method to check the return value.
+2349058,NO,2010-02-27 21:37,Without Modification,YES,YES,YES,YES,YES,,,N/A,Very basic issue.
+2585650,YES,2010-04-06 14:37,Minor Modification,NO,NO,NO,NO,NO,,,N/A,There are others errors and the user claimed an issue among four.
+2638488,YES,2010-04-14 15:04,Without Modification,NO,NO,YES,YES,YES,,,N/A,Basic code structure issue. 
+3981420,YES,2010-10-20 19:09,Without Modification,YES,YES,YES,YES,YES,,,N/A,
+4030032,YES,2010-10-27 4:44,Major Modification,NO,NO,YES,NO,NO,,,N/A,Need extra code to reproduce the issue.
+4363665,YES,2010-12-06 5:53,Without Modification,YES,YES,YES,YES,YES,,,N/A,
+4685450,YES,2011-01-13 21:25,Minor Modification,NO,NO,YES,YES,NO,,,N/A,
+5003907,YES,2011-02-15 12:56,Minor Modification,NO,NO,NO,NO,NO,,,YES,
+5554734,YES,2011-04-05 15:54,Minor Modification,NO,NO,NO,NO,NO,,,N/A,Logical error. Add dummy main class and method. 
+5554734,YES,2011-04-05 15:54,Minor Modification,NO,NO,NO,NO,NO,,,N/A,Add main class and method.
+5576330,YES,2011-04-07 5:17,Major Modification,YES,NO,YES,NO,YES,,,N/A,Multiple scenario. Partially reproduced.
+7696041,YES,2011-10-08 9:53,Without Modification,YES,NO,YES,YES,YES,,,N/A,
+7753443,YES,2011-10-13 11:31,Minor Modification,NO,NO,NO,NO,NO,,,N/A,"Need class, main method and a List declaration."
+7838718,YES,2011-10-20 15:57,Without Modification,YES,YES,YES,YES,YES,,,N/A,
+8394767,YES,2011-12-06 2:49,Minor Modification,YES,NO,YES,YES,YES,"import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.GridLayout;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;",,N/A,
+8429277,NO,2011-12-08 10:11,Minor Modification,NO,NO,NO,NO,NO,import javax.swing.JOptionPane;,,N/A,Very basic and silly logical issue.
+9553010,YES,2012-03-04 6:56,Minor Modification,YES,NO,YES,NO,YES,,,N/A,Why no error and Why error type issue. 
+9771521,YES,2012-03-19 13:56,Without Modification,YES,YES,YES,YES,YES,,,N/A,
+10457844,YES,2012-05-05 0:46,Minor Modification,YES,YES,YES,YES,YES,,,N/A,No input specification.
+12126173,YES,2012-08-25 22:35,Minor Modification,NO,NO,YES,NO,NO,,,N/A,Basic Issue.
+12164729,YES,2012-08-28 17:48,Minor Modification,NO,NO,NO,NO,NO,,,N/A,Runtime exception.
+12212941,NO,2012-08-31 9:52,Without Modification,YES,YES,YES,YES,YES,,,N/A,
+12768952,YES,2012-10-07 12:43,Major Modification,NO,NO,NO,NO,NO,"import java.util.ArrayList;
+import java.util.List;",,N/A,Program Issue. Short code to reproduce issue. Need extra code to produce the issue.
+13042008,YES,2012-10-24 2:04,Major Modification,NO,NO,YES,YES,NO,"import java.util.ArrayList;
+import java.util.Scanner;",,N/A,Run time exception. Add class and method signatures.
+13102045,YES,2012-10-27 16:37,Minor Modification,NO,NO,NO,NO,NO,import java.util.Scanner;,,N/A,I/O issue. 
+13102045,YES,2012-10-27 16:37,Minor Modification,NO,NO,NO,NO,NO,import java.util.Scanner;,,N/A,"Need class, main method and Scanner."
+13158291,YES,2012-10-31 12:45,Without Modification,YES,YES,YES,YES,YES,,,N/A,
+13175129,YES,2012-11-01 10:27,Minor Modification,NO,NO,NO,NO,NO,,,N/A,Just need class and main method.
+13486529,YES,2012-11-21 4:49,Minor Modification,YES,NO,YES,NO,YES,,,N/A,Add class and main method.
+14112515,YES,2013-01-01 17:22,Minor Modification,NO,NO,NO,NO,NO,,,N/A,Need variable declaration and initialization.
+14139534,YES,2013-01-03 13:04,Minor Modification,YES,NO,YES,YES,YES,"import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.FutureTask;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;",,YES,"Just import the native library, nothing else."
+14914516,YES,2013-02-16 19:56,Major Modification,NO,NO,NO,NO,NO,import java.util.Scanner;,,N/A,Need to modify the code to check the issue. Unnecessary code.
+16239989,NO,2013-04-26 15:25,Without Modification,YES,YES,YES,YES,YES,,,N/A,
+17288049,YES,2013-06-25 2:09,Minor Modification,NO,NO,NO,NO,NO,,,N/A,"Reproduced, although the message is slighlty different."
+17775236,NO,2013-07-21 18:01,Minor Modification,YES,YES,YES,YES,YES,,,N/A,Very Basic book example. There is the right answer but the user did not accept it.
+17779601,YES,2013-07-22 3:43,Minor Modification,YES,NO,YES,YES,YES,,,N/A,Program Issue. Need to add a class and method but that is indicated as code comment.
+19063065,YES,2013-09-28 3:56,Minor Modification,NO,NO,YES,YES,NO,import java.util.Scanner;,,N/A,Add class only.
+19509647,YES,2013-10-22 5:29,Minor Modification,NO,NO,YES,NO,NO,import java.util.Scanner;,,N/A,Wrong method invocation. Add class and main method and call the function.
+21016776,YES,2014-01-09 9:53,Without Modification,YES,NO,YES,YES,YES,,,N/A,"Included two package, one will be import."
+21059809,YES,2014-01-11 7:28,Major Modification,NO,NO,NO,NO,NO,,,N/A,Need major changes.
+21592197,YES,2014-02-06 1:22,Without Modification,YES,YES,YES,YES,YES,,,N/A,Need debugging. Issue statement is not crystal clear.
+21838448,YES,2014-02-17 20:14,Without Modification,YES,YES,YES,YES,YES,,,N/A,"Little confusing, where to copy the main method."
+22418887,NO,2014-03-15 2:43,Without Modification,YES,YES,YES,YES,YES,,,N/A,Program error.
+22599170,YES,2014-03-24 0:35,Without Modification,YES,YES,YES,YES,YES,,,YES,File input is not provided.
+22612662,YES,2014-03-24 14:47,Without Modification,YES,YES,YES,YES,YES,,,N/A,Runtime Exception
+23937473,YES,2014-05-29 15:51,Minor Modification,NO,NO,YES,YES,NO,,,N/A,Add main class.
+23946137,YES,2014-05-30 2:32,Minor Modification,NO,NO,NO,NO,NO,,,N/A,Reproduced alongwith other compiler errors.
+24716899,YES,2014-07-12 20:10,Minor Modification,NO,NO,YES,YES,NO,,,N/A,Add class only.
+25015679,NO,2014-07-29 12:46,Without Modification,YES,YES,YES,YES,YES,,,N/A,
+25339159,NO,2014-08-16 10:15,Minor Modification,NO,NO,YES,YES,NO,"import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;",,N/A,
+25504204,NO,2014-08-26 11:00,Without Modification,YES,YES,YES,YES,YES,,,N/A,"Error message little different that he noted, may be the cause is IDE."
+25709623,NO,2014-09-07 11:18,Minor Modification,NO,NO,YES,NO,YES,,,N/A,Basic error. There is correct answer but not accepted.
+25733262,YES,2014-09-08 21:16,Without Modification,YES,YES,YES,YES,YES,,,N/A,
+25805161,YES,2014-09-12 9:35,Minor Modification,NO,NO,NO,NO,NO,,,N/A,
+25905662,YES,2014-09-18 6:27,Without Modification,YES,YES,YES,YES,YES,,,N/A,Runtime exception. Basic problem.
+26100116,YES,2014-09-29 12:37,Minor Modification,NO,NO,NO,NO,NO,import java.util.Scanner;,,N/A,
+26205559,NO,2014-10-05 17:57,Without Modification,YES,NO,YES,NO,YES,,,N/A,Compiler error. 
+26534008,NO,2014-10-23 17:37,Minor Modification,NO,NO,YES,NO,NO,import java.util.Random;,,N/A,"Solved the problem, so answer is accepted."
+26651540,YES,2014-10-30 11:15,Without Modification,YES,YES,YES,YES,YES,,,N/A,"Reproduced but the explanation is not clear. So, it suffers me."
+26812183,NO,2014-11-08 0:12,Major Modification,NO,NO,NO,NO,NO,"import java.util.ArrayList;
+import java.util.Scanner;",,N/A,Need extra code to reproduce the issue.
+27188008,YES,2014-11-28 11:48,Major Modification,NO,NO,YES,NO,NO,,,N/A,Need extra code. Resolve error. Need debugging.
+27335794,YES,2014-12-06 19:54,Without Modification,YES,YES,YES,YES,YES,,,N/A,Runtime exception.
+28063086,YES,2015-01-21 8:58,Minor Modification,NO,NO,NO,NO,NO,,,N/A,Program Issue.
+28545025,YES,2015-02-16 15:39,Minor Modification,NO,NO,NO,NO,NO,,,N/A,Add dummy class and main method.
+28653180,YES,2015-02-22 0:40,Minor Modification,NO,NO,YES,NO,NO,,,N/A,Add class and main method.
+30060412,YES,2015-05-05 18:18,Minor Modification,NO,NO,NO,NO,NO,,,N/A,Just add class and main method.
+30108571,YES,2015-05-07 18:05,Major Modification,NO,NO,NO,NO,NO,,,N/A,Need extra code to print the output. 
+30281635,YES,2015-05-16 23:05,Minor Modification,YES,YES,YES,YES,YES,,,N/A,"Multiple issues, so need to edit the code. UI issue."
+30829670,YES,2015-06-14 12:59,Without Modification,YES,YES,YES,YES,YES,,,N/A,
+31170073,YES,2015-07-01 19:30,Without Modification,YES,YES,YES,YES,YES,,,N/A,Long code.
+31977074,NO,2015-08-12 23:26,Minor Modification,NO,NO,NO,YES,NO,import javax.swing.JOptionPane;,,N/A,Program Issue.
+32214284,YES,2015-08-25 21:19,Minor Modification,NO,NO,YES,NO,NO,,,N/A,
+32564148,NO,2015-09-14 11:53,Without Modification,YES,YES,YES,YES,YES,,,N/A,UI related.
+32659442,YES,2015-09-18 19:12,Without Modification,YES,YES,YES,YES,YES,,,N/A,Basic Program Issue.
+32663033,YES,2015-09-19 0:59,Minor Modification,NO,NO,YES,NO,NO,,,N/A,"Add class and main method, call the method with parameters."
+32832199,YES,2015-09-28 21:34,Without Modification,YES,NO,YES,YES,YES,,,N/A,Compilation error.
+33046816,YES,2015-10-09 20:40,Minor Modification,YES,NO,YES,YES,YES,,,N/A,Issue is not crystal clear.
+33084076,NO,2015-10-12 14:49,Major Modification,YES,NO,YES,YES,YES,,,N/A,Many others errors where the claims one.
+33176369,YES,2015-10-16 17:36,Without Modification,YES,YES,YES,YES,YES,,,N/A,
+33185937,YES,2015-10-17 11:11,Without Modification,YES,YES,YES,YES,YES,,,N/A,Basic type conversion error.
+33187479,NO,2015-10-17 14:00,Minor Modification,NO,NO,NO,NO,NO,,,N/A,Run time exceptopn. Simple Syntax error. One of the two is reproducible. 
+33245620,NO,2015-10-20 19:51,Major Modification,YES,NO,YES,YES,YES,,,N/A,"Runtime error. Resolving others compilation error, the issue can be reproduced. Although, error message is not same."
+33248496,NO,2015-10-20 23:25,Major Modification,NO,NO,NO,NO,NO,,,N/A,Many compilation errors. Use claims one of them.
+33297090,YES,2015-10-23 7:35,Minor Modification,YES,NO,YES,YES,YES,,,N/A,Program Structure Issue.
+33369721,NO,2015-10-27 13:45,Minor Modification,YES,YES,YES,YES,YES,,,N/A,Basic Program Issue.
+33579459,NO,2015-11-07 5:26,Minor Modification,YES,YES,YES,YES,YES,,,N/A,Issue is not clear. Partially reproducible.
+33590525,YES,2015-11-08 3:52,Major Modification,YES,NO,YES,YES,YES,,,N/A,Many errors alongside the erros user claims.
+33681374,YES,2015-11-12 21:07,Without Modification,YES,YES,YES,YES,YES,,,N/A,Reproducible without any modification of code.
+33806513,YES,2015-11-19 14:22,Without Modification,YES,YES,YES,YES,YES,,,N/A,No modification required.
+33879716,YES,2015-11-23 20:07,Minor Modification,NO,NO,NO,NO,NO,"import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;",,N/A,Program Issue. Need class and method.
+33920999,YES,2015-11-25 15:57,Minor Modification,NO,NO,NO,NO,NO,,,N/A,Program error. Needs debugging. 
+33946899,NO,2015-11-26 20:59,Major Modification,NO,NO,NO,NO,NO,"import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
+import java.util.logging.Level;
+import java.util.logging.Logger;",,NO,"Need changes, declare veriable and initialization. Issue statement is not clear."
+34280937,YES,2015-12-15 4:03,Without Modification,YES,YES,YES,YES,YES,,,N/A,Complete and large code segment.  
+34402562,NO,2015-12-21 19:01,Without Modification,YES,YES,YES,YES,YES,,,N/A,
+34435131,NO,2015-12-23 11:53,Without Modification,YES,YES,YES,YES,YES,,,N/A,Reproducible without any modification. This is an UI application.
+34634050,NO,2016-01-06 13:12,Minor Modification,YES,NO,YES,YES,YES,,,N/A,
+34806343,NO,2016-01-15 7:41,Without Modification,YES,YES,YES,YES,YES,,,N/A,Very Basic issue.
+34966635,YES,2016-01-23 17:38,Minor Modification,YES,NO,YES,NO,YES,,,N/A,Variable not initialized.
+35118383,YES,2016-01-31 19:30,Without Modification,YES,YES,YES,YES,YES,,,N/A,There is correct answer but not get accepted.
+35356126,YES,2016-02-12 6:23,Without Modification,YES,NO,YES,YES,YES,,,N/A,
+35380717,YES,2016-02-13 13:47,Minor Modification,NO,NO,YES,YES,NO,,,N/A,Add class and a method signature.
+35562210,YES,2016-02-22 19:30,Without Modification,YES,YES,YES,YES,YES,,,N/A,
+35599614,YES,2016-02-24 10:32,Without Modification,YES,YES,YES,YES,YES,,,N/A,Without any modification issue can be reproduced.
+35772628,YES,2016-03-03 12:49,Minor Modification,NO,NO,YES,YES,NO,,,N/A,
+35781780,YES,2016-03-03 19:56,Minor Modification,NO,NO,NO,NO,NO,"import java.io.File;
+import java.nio.file.Files;
+import java.nio.file.StandardCopyOption;",,N/A,Need to creale Files.
+35796307,YES,2016-03-04 12:38,Without Modification,YES,YES,YES,YES,YES,"import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;",,N/A,Logical Issue.
+35802306,YES,2016-03-04 17:25,Without Modification,YES,NO,YES,YES,YES,,,N/A,Syntax Issue.
+35834640,YES,2016-03-07 1:04,Minor Modification,NO,NO,NO,NO,NO,import java.util.Arrays;,,N/A,Add main class and method.
+36023842,NO,2016-03-15 22:59,Without Modification,NO,NO,YES,YES,YES,,,N/A,"Compilation error is the problem, so that file obviously not parsable or compilabe"
+36121533,NO,2016-03-21 0:50,Major Modification,NO,NO,YES,YES,NO,"import java.util.HashMap;
+import java.util.Scanner",,N/A,Add class and method signature. Isuue is not crystal clear.
+36236246,YES,2016-03-26 14:10,Without Modification,YES,YES,YES,YES,YES,,,N/A,Unnecessarily long code.
+36316658,NO,2016-03-30 18:19,Without Modification,YES,YES,YES,YES,YES,,,N/A,Reproducible without any modification.
+36587313,YES,2016-04-13 2:11,Major Modification,NO,NO,YES,NO,NO,,,N/A,Need extra code to check.
+36606547,NO,2016-04-13 18:23,Major Modification,NO,NO,NO,NO,NO,,,NO,Run time exception. Need to resolve another error to reproduce the claimed one.
+37166588,YES,2016-05-11 15:04,Major Modification,NO,NO,NO,YES,YES,,,N/A,Other errors need to solve to reproduce the issue.
+37632011,YES,2016-06-04 15:35,Minor Modification,NO,NO,NO,YES,NO,,,N/A,Runtime exception.
+37636698,YES,2016-06-05 1:49,Minor Modification,NO,NO,NO,NO,NO,"import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;",,N/A,Compilation error.
+37791455,YES,2016-06-13 13:47,Without Modification,YES,YES,YES,YES,YES,,,N/A,
+37912009,YES,2016-06-19 21:27,Major Modification,YES,NO,YES,NO,YES,,,N/A,"Usage of Java generics and comparator. Need main class and main method, then call the method creating arguments. "
+38038030,YES,2016-06-26 11:25,Minor Modification,NO,NO,YES,NO,NO,"import java.awt.Image;
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import javax.imageio.ImageIO;
+import javax.swing.ImageIcon;",,N/A,
+38570560,YES,2016-07-25 14:32,Major Modification,NO,NO,YES,NO,NO,"import java.sql.Timestamp;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.TimeZone;",,NO,Self answer.
+39366424,YES,2016-09-07 9:41,Major Modification,YES,NO,YES,YES,YES,,,N/A,"External Jar downlaod. Partially reproduced the issue, there are other compilaer errors."
+39430730,YES,2016-09-10 21:28,Without Modification,YES,YES,YES,YES,YES,,,N/A,Reproducible without any modification
+39430730,YES,2016-09-10 21:28,Without Modification,YES,YES,YES,YES,YES,,,N/A,
+39565740,YES,2016-09-19 5:07,Without Modification,YES,YES,YES,YES,YES,,,N/A,Unnecessarily long code attached.
+39904543,NO,2016-10-06 19:50,Major Modification,YES,NO,YES,YES,YES,,,N/A,One among three is reproduced.
+40079377,YES,2016-10-17 5:57,Minor Modification,NO,NO,YES,NO,YES,,,N/A,Compilation errors. Need to declare some variables.
+40089783,YES,2016-10-17 15:02,Major Modification,YES,NO,YES,YES,YES,,,N/A,Need to add code to reproduce the issue. The issue is not crystal clear.
+40188505,YES,2016-10-22 4:59,Minor Modification,NO,NO,NO,NO,NO,,,NO,
+40676820,NO,2016-11-18 12:10,Minor Modification,NO,NO,NO,NO,NO,,,N/A,Syntax error. He asked the reasoning rather than solution.
+41891611,YES,2017-01-27 10:18,Minor Modification,NO,NO,NO,NO,YES,,,N/A,Unusual Issue.
+42056499,YES,2017-02-05 19:49,Minor Modification,NO,NO,YES,YES,NO,,,N/A,Add class.
+42194873,NO,2017-02-13 0:21,Without Modification,YES,YES,YES,YES,YES,,,N/A,Long and unnecessary code. 
+42533185,NO,2017-03-01 13:33,Minor Modification,NO,NO,YES,YES,YES,,,N/A,Partially Reproducable. 
+42745217,YES,2017-03-12 8:15,Major Modification,NO,NO,YES,YES,YES,"import java.awt.Dimension;
+import java.awt.Frame;
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import java.awt.Insets;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JPasswordField;
+import javax.swing.JRootPane;
+import javax.swing.JTextField;
+import javax.swing.SwingUtilities;",,N/A,So many imports. Brackets missing. Although unimportant statements are not shown for the sake of brevity.
+43079369,NO,2017-03-28 20:30,Minor Modification,NO,NO,NO,NO,NO,,,N/A,Has correct answer but not get accepted. 
+43129823,YES,2017-03-30 23:09,Without Modification,YES,NO,YES,YES,YES,,,N/A,
+43195858,YES,2017-04-03 23:19,Minor Modification,NO,NO,YES,NO,NO,import java.util.Scanner;,,N/A,
+43667632,NO,2017-04-27 20:47,Major Modification,NO,NO,NO,NO,NO,,,N/A,"Need extra code to reproduce the issue. Variable declaration, properly initialize the variables."
+43727793,NO,2017-05-01 23:13,Major Modification,NO,NO,NO,NO,NO,"import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.FutureTask;",,N/A,Issue statement is not clear about how to check. Need extra code to check. 
+43910830,YES,2017-05-11 8:54,Minor Modification,NO,NO,NO,NO,NO,import java.util.Calendar;,,N/A,"Add main class and main method and need to change a method to print the output, although output does not match perfectly. "
+44218606,NO,2017-05-27 15:26,Without Modification,YES,YES,YES,YES,YES,,,N/A,There are proper answers but not accepetd but the user.
+44303696,YES,2017-06-01 9:28,Without Modification,YES,YES,YES,YES,YES,,,N/A,Basic Logical Issue
+44318499,NO,2017-06-01 23:17,Major Modification,NO,NO,NO,NO,NO,"import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.ArrayList;",,NO,Program Issue. File output.
+45156568,YES,2017-07-18 2:37,Without Modification,YES,YES,YES,YES,YES,,,N/A,Without any modification issue can be reproduced.
+46230049,NO,2017-09-15 0:38,Minor Modification,YES,NO,YES,YES,YES,,,N/A,
+46921792,YES,2017-10-24 23:58,Minor Modification,NO,NO,NO,NO,NO,,,N/A,"Very basic syntax error. Adding main class and method, error can be reproduced."
+46966488,YES,2017-10-27 2:12,Minor Modification,NO,NO,NO,NO,NO,,,N/A,"Compilation error. Add class and main method, variable declare."
+47053983,YES,2017-11-01 11:39,Major Modification,NO,NO,NO,NO,NO,"import java.util.HashMap;
+import java.util.Map;
+import java.util.function.Function;",,N/A,"Partially reproducible. User got warning and error, the warning can be reproduced.  Need another class and getter setter methods. "
+47362456,YES,2017-11-18 4:19,Without Modification,YES,NO,YES,YES,YES,,,N/A,Program structure Issue. It has correct answer but not get accepted.
+47464821,YES,2017-11-24 0:20,Without Modification,YES,YES,YES,YES,YES,,,N/A,UI Isuse.
+47545494,YES,2017-11-29 5:12,Minor Modification,NO,NO,NO,NO,NO,,,N/A,"Compilation error. Declare variables, add main class and main method. "
+47579554,NO,2017-11-30 17:44,Without Modification,YES,YES,YES,YES,YES,,,N/A,UI related issue. 
+48200387,NO,2018-01-11 5:36,Minor Modification,NO,NO,NO,NO,NO,import java.io.Console;,,N/A,"Wrong method name, I find the write name from the screen shot he added. Moreover, duplicate question."
+48268435,YES,2018-01-15 18:05,Without Modification,YES,YES,YES,YES,YES,,,N/A,
+48270543,NO,2018-01-15 20:56,Without Modification,YES,YES,YES,YES,YES,,,N/A,UI Isuse.
+48313556,NO,2018-01-18 3:50,Major Modification,NO,NO,NO,YES,YES,,,N/A,Very basic compiler errors. Need to solve these first to reproduce the issue.
+48609759,NO,2018-02-04 15:31,Without Modification,YES,YES,YES,YES,YES,,,N/A,
+48962369,NO,2018-02-24 11:33,Major Modification,YES,NO,YES,YES,YES,,,N/A,"Two issues in two files. One can be reproduced, other cannot."
+49111006,YES,2018-03-05 12:56,Without Modification,YES,YES,YES,YES,YES,,,N/A,Without any modification issue can be reproduced.
+49266983,YES,2018-03-13 22:38,Minor Modification,YES,NO,YES,YES,YES,,,N/A,Long code.0
+49429615,YES,2018-03-22 13:11,Without Modification,YES,YES,YES,YES,YES,,,N/A,Reproducible without any modification.
+49642796,NO,2018-04-04 4:29,Without Modification,YES,YES,YES,YES,YES,,,N/A,Reproducible without any modification.
+49972194,NO,2018-04-23 1:13,Minor Modification,YES,NO,YES,YES,YES,,,N/A,Bad programming and issue.
+52632591,YES,2018-10-03 17:27,Without Modification,YES,YES,YES,YES,YES,,,N/A,
+52893257,NO,2018-10-19 13:23,Major Modification,YES,NO,YES,YES,YES,,,N/A,Need another class and method. Other compilation errors are there.
+52980237,YES,2018-10-25 1:55,Without Modification,YES,YES,YES,YES,YES,,,N/A,"This question has solution but not get accepted. Even the asker commented under the answer, ""Thank you sir the program works fine! Awsome :)""."
+53159149,YES,2018-11-05 17:18,Major Modification,NO,NO,YES,NO,NO,"import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.Instant;
+import java.time.temporal.ChronoUnit;
+import java.util.Date;",,NO,"Program Issue. Need extra code to declare veriable, assign value, call the method and print the value."
+53232392,YES,2018-11-09 19:48,Minor Modification,NO,NO,YES,NO,NO,,,N/A,Need to write couples of lines of code.
+53324152,NO,2018-11-15 16:44,Minor Modification,NO,NO,YES,YES,NO,import java.util.Scanner;,,N/A,"The code was under main method, so after adding a main class the issue is reproduced.  "
