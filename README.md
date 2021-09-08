@@ -18,6 +18,12 @@
 
 * `Java.csv` & `Python.csv` contain manually investigated 800 questions (400 Java and 400 Python) of Stack Overflow with their reproducibility status (`reproducible without modification`, `reproducible with minor modification`, `reproducible with major modification`, `irreproducible`, `inaccurate claim` and `ill-defined issue`).
 
+* `JavaQuestionsWithAllFields.csv` & `PythonQuestionsWithAllFields.csv` contain all the attributes of our manually analyzed questions. 
+
+* `Java-Reproducibility-Challenges.csv` & `Python-Reproducibility-Challenges.csv` contain the challenges that prevent the reproducibility of issues reported in the questions.
+
+* `Java-Modifications.csv` & `Python-Modifications.csv` enlisted the editing actions of the code segments that were required to reproduce the issues.
+
 ***MSR2019-Dataset***
 
 * `Java.csv` contains manually investigated 400 Java questions of Stack Overflow with their reproducibility status (`reproducible without modification`, `reproducible with minor modification`, `reproducible with major modification`, `irreproducible`, `inaccurate claim` and `ill-defined issue`), published in MSR 2019.
