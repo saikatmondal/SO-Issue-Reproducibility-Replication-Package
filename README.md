@@ -12,7 +12,7 @@
 
 ## Materials Included
 
-#### Manually Analyzed Dataset ####
+#### Manually Analyzed Dataset
 
 ***EMSE-Dataset*** 
 
